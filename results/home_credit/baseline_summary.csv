@@ -1,0 +1,4 @@
+model,model_name,auc_mean,auc_std,f1_mean,f1_std,ks_mean,ks_std,train_mean,train_std,peak_mem_mean
+lr,Logistic Regression,0.7454,0.0000,0.2612,0.0000,0.3740,0.0000,14.6222,6.0714,557.2280
+rf,Random Forest,0.7376,0.0003,0.2652,0.0007,0.3629,0.0017,22.0142,0.7155,285.0100
+xgb,XGBoost,0.7551,0.0005,0.2700,0.0006,0.3819,0.0011,6.1216,0.3043,1.1540

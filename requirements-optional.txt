@@ -1,0 +1,11 @@
+# Optional dependencies, only needed if we keep the synthetic-data
+# component of the paper. Install separately AFTER core requirements work:
+#   pip install -r requirements-optional.txt
+#
+# ctgan and sdmetrics are the picky ones - they don't always have wheels
+# for the latest Python. If they fail, we will drop the Zimbabwe synthetic
+# data analysis from the paper.
+
+ctgan>=0.10
+sdmetrics>=0.14
+peft>=0.10

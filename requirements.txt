@@ -1,0 +1,28 @@
+# Core experimental dependencies - install these first.
+# Tested with Python 3.11 and 3.12. Python 3.13 may need build tools.
+
+# Numerics / data
+numpy>=1.24,<3.0
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+
+# Gradient boosting
+xgboost>=2.0
+
+# Deep learning (CPU build is fine for our network size)
+torch>=2.1
+
+# Explainability + plots
+shap>=0.44
+matplotlib>=3.7
+seaborn>=0.13
+
+# Data download
+kaggle>=1.6
+
+# Utilities
+tqdm
+joblib
+pyarrow      # for parquet IO

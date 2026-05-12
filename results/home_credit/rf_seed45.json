@@ -1,0 +1,17 @@
+{
+  "dataset": "home_credit",
+  "model": "rf",
+  "model_name": "Random Forest",
+  "seed": 45,
+  "train_seconds": 22.025,
+  "peak_memory_mb": 287.35,
+  "val_auc": 0.7333464919858917,
+  "auc": 0.7373949624533842,
+  "precision": 0.16777312743541636,
+  "recall": 0.624328678839957,
+  "f1": 0.26447503128199296,
+  "ks": 0.36377497128531905,
+  "threshold": 0.5,
+  "n_test": 46127,
+  "n_test_pos": 3724
+}

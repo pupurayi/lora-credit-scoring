@@ -1,0 +1,67 @@
+{
+  "dataset": "home_credit",
+  "model": "lora",
+  "threshold": 0.5,
+  "n_test": 46127,
+  "overall_approval_rate": 0.642660480846359,
+  "overall_default_rate": 0.08073362672621241,
+  "note_on_age": "DAYS_BIRTH was retained in standardized form in the processed parquet; if so, age bands are derived from rank quantiles (young = top-tercile DAYS_BIRTH = youngest applicants; old = bottom-tercile = oldest).",
+  "results": [
+    {
+      "protected": "F",
+      "reference": "M",
+      "n_protected": 30429,
+      "n_reference": 15698,
+      "approval_rate_protected": 0.7053,
+      "approval_rate_reference": 0.5212,
+      "disparate_impact": 1.3532,
+      "passes_four_fifths_rule": true,
+      "chi2": 1527.563,
+      "p_value": 0.0,
+      "degrees_of_freedom": 1,
+      "attribute": "gender"
+    },
+    {
+      "protected": "young",
+      "reference": "mid",
+      "n_protected": 6720,
+      "n_reference": 34010,
+      "approval_rate_protected": 0.4001,
+      "approval_rate_reference": 0.6585,
+      "disparate_impact": 0.6077,
+      "passes_four_fifths_rule": false,
+      "chi2": 1582.206,
+      "p_value": 0.0,
+      "degrees_of_freedom": 1,
+      "attribute": "age_band"
+    },
+    {
+      "protected": "old",
+      "reference": "mid",
+      "n_protected": 5397,
+      "n_reference": 34010,
+      "approval_rate_protected": 0.8447,
+      "approval_rate_reference": 0.6585,
+      "disparate_impact": 1.2828,
+      "passes_four_fifths_rule": true,
+      "chi2": 746.429,
+      "p_value": 2.3975962913292013e-164,
+      "degrees_of_freedom": 1,
+      "attribute": "age_band"
+    },
+    {
+      "protected": "young",
+      "reference": "old",
+      "n_protected": 6720,
+      "n_reference": 5397,
+      "approval_rate_protected": 0.4001,
+      "approval_rate_reference": 0.8447,
+      "disparate_impact": 0.4737,
+      "passes_four_fifths_rule": false,
+      "chi2": 2459.415,
+      "p_value": 0.0,
+      "degrees_of_freedom": 1,
+      "attribute": "age_band"
+    }
+  ]
+}

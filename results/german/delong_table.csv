@@ -1,0 +1,6 @@
+model,key,auc,auc_ci_low,auc_ci_high,delong_diff_vs_lora,delong_z,delong_p
+Logistic Regression,lr,0.7656,0.681,0.8502,0.0235,1.21,0.22634447902433574
+Random Forest,rf,0.7608,0.6798,0.8418,0.0283,1.014,0.3104472485023716
+XGBoost,xgb,0.7866,0.7099,0.8632,0.0025,0.081,0.9352538569098565
+MLP (Full FT),full,0.7901,0.7064,0.8739,-0.001,-0.225,0.8220720536261938
+MLP (LoRA),lora,0.7891,0.7052,0.873,,,

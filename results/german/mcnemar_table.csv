@@ -1,0 +1,11 @@
+model_1,model_2,b_(1right_2wrong),c_(1wrong_2right),chi2,p,odds_ratio
+Logistic Regression,Random Forest,11,7,0.5,0.47950012218695337,1.533
+Logistic Regression,XGBoost,14,17,0.129,0.7194375444233914,0.829
+Logistic Regression,MLP (Full FT),9,11,0.05,0.8230632737581214,0.826
+Logistic Regression,MLP (LoRA),9,11,0.05,0.8230632737581214,0.826
+Random Forest,XGBoost,9,16,1.44,0.23013934044341317,0.576
+Random Forest,MLP (Full FT),9,15,1.042,0.30743416592739237,0.613
+Random Forest,MLP (LoRA),10,16,0.962,0.3267995676689632,0.636
+XGBoost,MLP (Full FT),17,16,0.0,1.0,1.061
+XGBoost,MLP (LoRA),16,15,0.0,1.0,1.065
+MLP (Full FT),MLP (LoRA),3,3,0.167,0.6830913983096086,1.0

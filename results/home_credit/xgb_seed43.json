@@ -1,0 +1,17 @@
+{
+  "dataset": "home_credit",
+  "model": "xgb",
+  "model_name": "XGBoost",
+  "seed": 43,
+  "train_seconds": 6.452,
+  "peak_memory_mb": 1.15,
+  "val_auc": 0.7509876905381798,
+  "auc": 0.7549340925784668,
+  "precision": 0.16964596230089726,
+  "recall": 0.6549409237379162,
+  "f1": 0.26948787359814375,
+  "ks": 0.3807250112742312,
+  "threshold": 0.5,
+  "n_test": 46127,
+  "n_test_pos": 3724
+}

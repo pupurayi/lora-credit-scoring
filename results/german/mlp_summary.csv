@@ -1,0 +1,3 @@
+mode,auc_mean,auc_std,f1_mean,ks_mean,train_mean,trainable_params,total_params
+full,0.7708,0.0176,0.5867,0.4716,0.8304,197889.0000,197889.0000
+lora,0.7905,0.0014,0.6325,0.5038,0.5732,10857.0000,208617.0000

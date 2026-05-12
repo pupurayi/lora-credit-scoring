@@ -1,0 +1,17 @@
+{
+  "dataset": "german",
+  "model": "rf",
+  "model_name": "Random Forest",
+  "seed": 43,
+  "train_seconds": 9.193,
+  "peak_memory_mb": 1.6,
+  "val_auc": 0.8165079365079365,
+  "auc": 0.7572327044025157,
+  "precision": 0.5087719298245614,
+  "recall": 0.6444444444444445,
+  "f1": 0.5686274509803921,
+  "ks": 0.4274633123689728,
+  "threshold": 0.5,
+  "n_test": 151,
+  "n_test_pos": 45
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "german",
+  "model": "lr",
+  "model_name": "Logistic Regression",
+  "seed": 43,
+  "train_seconds": 0.028,
+  "peak_memory_mb": 1.36,
+  "val_auc": 0.8258201058201059,
+  "auc": 0.7656184486373165,
+  "precision": 0.5238095238095238,
+  "recall": 0.7333333333333333,
+  "f1": 0.6111111111111112,
+  "ks": 0.4953878406708595,
+  "threshold": 0.5,
+  "n_test": 151,
+  "n_test_pos": 45
+}

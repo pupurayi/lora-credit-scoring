@@ -1,0 +1,5 @@
+protected,reference,n_protected,n_reference,approval_rate_protected,approval_rate_reference,disparate_impact,passes_four_fifths_rule,chi2,p_value,degrees_of_freedom,attribute
+F,M,30429,15698,0.7053,0.5212,1.3532,True,1527.563,0.0,1,gender
+young,mid,6720,34010,0.4001,0.6585,0.6077,False,1582.206,0.0,1,age_band
+old,mid,5397,34010,0.8447,0.6585,1.2828,True,746.429,2.3975962913292013e-164,1,age_band
+young,old,6720,5397,0.4001,0.8447,0.4737,False,2459.415,0.0,1,age_band
